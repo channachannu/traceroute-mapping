@@ -10,7 +10,7 @@ def getDetails(ip):
 	pprint.pprint(details.all)
 
 def ipDetails(ip):
-	access_token = '08b7e0d032fc4d'
+	access_token = '' # signup on the ipinfo.io website and get the access token.
 	handler = ipinfo.getHandler(access_token)
 	details = handler.getDetails(ip)
 	#pprint.pprint(details.all)
